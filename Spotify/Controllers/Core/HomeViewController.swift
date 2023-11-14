@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
     
     
     override func viewDidLoad() {
@@ -18,12 +18,12 @@ class ViewController: UIViewController {
     }
     
     private func setupViews() {
-        view.backgroundColor = .darkGray
+        view.backgroundColor = .systemBackground
     }
 }
 
 //MARK: - Set Constraints
-extension ViewController {
+extension HomeViewController {
     private func setConstraints() {
         NSLayoutConstraint.activate([
             

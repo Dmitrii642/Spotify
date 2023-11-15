@@ -29,6 +29,7 @@
 		663A18C02B03EE4100CC53F0 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A18BF2B03EE4100CC53F0 /* Artist.swift */; };
 		663A18C22B03EE5200CC53F0 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A18C12B03EE5200CC53F0 /* UserProfile.swift */; };
 		663A18C42B03EE6500CC53F0 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A18C32B03EE6500CC53F0 /* AudioTrack.swift */; };
+		663A18C92B05042D00CC53F0 /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A18C82B05042D00CC53F0 /* UIView + Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		663A18BF2B03EE4100CC53F0 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		663A18C12B03EE5200CC53F0 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		663A18C32B03EE6500CC53F0 /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
+		663A18C82B05042D00CC53F0 /* UIView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				663A189C2B03E6B300CC53F0 /* Models */,
 				663A189B2B03E6A400CC53F0 /* Views */,
 				663A189A2B03E69900CC53F0 /* Controllers */,
+				663A18C62B0503EC00CC53F0 /* Extensions */,
 				663A18A02B03E7AE00CC53F0 /* SupportingFiles */,
 			);
 			path = Spotify;
@@ -195,6 +198,22 @@
 			path = NavigationModule;
 			sourceTree = "<group>";
 		};
+		663A18C62B0503EC00CC53F0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				663A18C72B05040E00CC53F0 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		663A18C72B05040E00CC53F0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				663A18C82B05042D00CC53F0 /* UIView + Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -272,6 +291,7 @@
 				663A18AC2B03ED2200CC53F0 /* WelcomeViewController.swift in Sources */,
 				663A18B02B03ED4300CC53F0 /* ProfileViewController.swift in Sources */,
 				663A18C42B03EE6500CC53F0 /* AudioTrack.swift in Sources */,
+				663A18C92B05042D00CC53F0 /* UIView + Extensions.swift in Sources */,
 				663A18A22B03EC5F00CC53F0 /* TabBarViewController.swift in Sources */,
 				663A18BC2B03EDEC00CC53F0 /* HapticsManager.swift in Sources */,
 				663A188B2B03E63800CC53F0 /* HomeViewController.swift in Sources */,
@@ -430,6 +450,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +481,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
